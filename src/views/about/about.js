@@ -28,6 +28,11 @@ import mysql from "../../assets/icons/mysql.svg";
 import next from "../../assets/icons/nextjs.svg";
 import express from "../../assets/icons/express.svg";
 import myphoto from "../../assets/about_me.png";
+import ReduxImg from "../../assets/Redux.png";
+import postman_img from "../../assets/postman_img.png";
+import bootstrap_img from "../../assets/bootstrap_img.png";
+import material_ui_img from "../../assets/material_ui_img.png";
+import jquery_img from "../../assets/jquery-img.png";
 
 export default function About() {
   const [loadedProfileimg, setloadedProfileimg] = useState(false);
@@ -135,12 +140,12 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Degree"
-                    value="Bachelor's in Computer Engineering"
+                    value="Bachelor's In Computer Applications"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Designation"
-                    value="Web Development Engineer"
+                    value="Software Developer"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
@@ -177,15 +182,20 @@ export default function About() {
           <TechStackCard imagepath={html} />
           <TechStackCard imagepath={css} />
           <TechStackCard imagepath={tailwind} />
+          <TechStackCard imagepath={bootstrap_img} />
+          <TechStackCard imagepath={material_ui_img} />
           <TechStackCard imagepath={js} />
           <TechStackCard imagepath={react} />
+          <TechStackCard imagepath={jquery_img} />
+          <TechStackCard imagepath={ReduxImg} />
           <TechStackCard imagepath={node} />
-          <TechStackCard imagepath={mongo} />
+          <TechStackCard imagepath={postman_img} />
+          {/* <TechStackCard imagepath={mongo} /> */}
           <TechStackCard imagepath={express} />
           <TechStackCard imagepath={git} />
           <TechStackCard imagepath={github} />
           <TechStackCard imagepath={mysql} />
-          <TechStackCard imagepath={next} />
+          {/* <TechStackCard imagepath={next} /> */}
         </SimpleGrid>
       </Box>
     </Box>

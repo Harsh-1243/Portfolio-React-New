@@ -21,7 +21,7 @@ export default function Resume() {
   const handleDownload = () => {
     // Updated with your new resume link
     window.location.href =
-      "https://drive.google.com/file/d/1uonC1XDzoe1fa5eMbjPEoDqb9sWBlWWn/view?usp=sharing";
+      "https://drive.google.com/file/d/1U061dsreaqmn_qK06mxuAUCf66NXdY9T/view?usp=sharing";
   };
 
   return (
@@ -37,7 +37,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src="https://drive.google.com/file/d/1uonC1XDzoe1fa5eMbjPEoDqb9sWBlWWn/preview"
+              src="https://drive.google.com/file/d/1U061dsreaqmn_qK06mxuAUCf66NXdY9T/view?usp=sharing/preview"
               title="Resume"
               width="100%"
               height="100%"

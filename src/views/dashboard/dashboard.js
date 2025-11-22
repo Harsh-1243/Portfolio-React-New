@@ -147,7 +147,7 @@ export default function Dashboard() {
                     <Text display="inline-flex" color={highlightTextColor}>
                       <Typewriter
                         onInit={(typewriter) => {
-                          typewriter.typeString("Jainik Darji.").start();
+                          typewriter.typeString("Harsh Panchal.").start();
                         }}
                       />
                     </Text>

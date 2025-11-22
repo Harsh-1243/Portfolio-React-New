@@ -114,7 +114,7 @@ export default function Contact() {
                   href="mailto:darjijainik@gmail.com"
                   style={{ color: "inherit" }}
                 >
-                  darjijainik@gmail.com
+                  harshpanchal1243@gmail.com
                 </a>
               </Text>
             </Box>
@@ -150,7 +150,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   style={{ color: "inherit" }}
                 >
-                  +91 63580-82895
+                  +91 8487991243
                 </a>
               </Text>
             </Box>
